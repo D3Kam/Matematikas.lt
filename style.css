@@ -1,10 +1,9 @@
-html {
-    overflow-x: hidden; 
-}
 body {
-    height: 100%;
-    width: 100%;
-
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0; 
+  padding: 0; 
+  overflow-x: hidden; 
 }
 .first-container{
   width: 100%;
@@ -68,4 +67,8 @@ body {
   overflow: hidden; 
   
 }
+#features p{
+  font-size: 1.25rem;
+}
+
 
